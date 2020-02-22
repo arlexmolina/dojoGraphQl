@@ -23,7 +23,7 @@ class PostApi extends RESTDataSource {
             id: post.id,
             title: post.title,
             body: post.body,
-            comments: this.formatComment(post.comments[index])
+            comments: this.formatComment(postComments[index])
         }))
     }
 
